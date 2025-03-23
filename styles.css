@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: white; /* Letras en blanco */
+}
+
+/* Sombra en los textos para mejor visibilidad */
+h1,
+h2,
+h3,
+p,
+a {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: rgba(255, 0, 0, 0.8); /* Rojo con transparencia */
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+/* Navbar */
+nav {
+  background-color: rgba(0, 0, 0, 0.8); /* Negro con transparencia */
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+/* Secciones de contenido */
+.content-section {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo negro con transparencia */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+/* Estilos para los títulos */
+h1 {
+  color: white;
+}
+
+h2 {
+  color: red;
+}
+
+/* Botón de contacto */
+button {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(255, 0, 0, 0.8); /* Rojo con transparencia */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
